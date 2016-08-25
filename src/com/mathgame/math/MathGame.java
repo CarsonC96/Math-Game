@@ -103,7 +103,6 @@ public class MathGame extends Container implements ActionListener {
 	Rectangle home6;
 	*/
 
-	Point[] placesHomes = new Point[12];
 
 	JLabel correct;
 	int answerA;
