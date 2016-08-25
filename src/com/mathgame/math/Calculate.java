@@ -35,10 +35,11 @@ public class Calculate {
 		
 		double num1 = NumberCard.parseNumFromText(card1.getValue());
 		double num2 = NumberCard.parseNumFromText(card2.getValue());
+		String op = operation.getOperation();
 		System.out.println("num1 final : " + card1.getValue());
 		System.out.println("num2 final : " + num2);
-		System.out.println("op final: " + operation.getOperation());
-		String op = operation.getOperation();
+		System.out.println("op final: " + op);
+		
 		double answer;
 		
 		if(op == "add")	{
